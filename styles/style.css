@@ -20,6 +20,11 @@
   font-size: 45px;
   font-weight: bolder;
 }
+.head{
+  background-image: url(../images/developer.png), url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
 nav{
   display: flex;
   justify-content: space-between;
@@ -48,5 +53,31 @@ nav ul li a{
   font-size: 20px;
   font-weight: bold;
   padding: 13px 35px;
+
+}
+.banner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 30px 0 200px;
+}
+.banner_content{
+  max-width: 585px;
+}
+.banner_gritings{
+  font-size: 45px;
+  font-weight: 600;
+}
+.banner_title{
+  font-size: 85px;
+  font-weight: bold;
+}
+.banner_description{
+  font-size: 18px;
+  font-weight: 600;
+}
+.banner_image{
+  width:584px;
+  height:676px;
 
 }
