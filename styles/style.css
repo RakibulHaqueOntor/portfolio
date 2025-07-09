@@ -14,12 +14,39 @@
   color: #474747;
 }
 .dark3{
-  color: ;
+  color: #757575;
 }
-nav title{
+.nav_title{
   font-size: 45px;
   font-weight: bolder;
 }
 nav{
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 200px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  
+}
+/* nav ul li{
+  display: inline-block;
+} */
+nav ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 50px;
+}
+.btn_primary{
+  background-color: #FD6E0A;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 35px;
+
 }
