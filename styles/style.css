@@ -129,5 +129,42 @@ main{
   padding: 30px;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
-
+.summary{
+  margin-top: 130px;
+}
+.resume_sumary{
+  display: flex;
+  gap:24px;
+}
+.download{
+  margin-top: 50px;
+}
+.footer{
+  height: 780px;
+  width: 1600px;
+  margin-top: 113px;
+  display: flex;
+  padding:130px 230px;
+  gap: 117px;
+}
+.connect_d{
+  width: 562px;
+}
+footer img{
+  padding-right:24px;
+}
+input[type="text"]{
+  width: 461px;
+  height: 64px;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+input{
+  margin-bottom:24px ;
+}
+textarea{
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+}
 
